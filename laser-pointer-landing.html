@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaserPro X9 — The World's Sharpest Laser Pointer | Free Shipping Today</title>
+  <meta name="description" content="Command any room with the LaserPro X9. Ultra-bright 532nm beam visible up to 5 miles. Trusted by 50,000+ professionals. Order now & get free express shipping." />
+  <meta property="og:title" content="LaserPro X9 — Command Every Room" />
+  <meta property="og:description" content="Ultra-bright laser pointer trusted by 50,000+ professionals. Free shipping. 30-day guarantee." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=630&fit=crop" />
+  <link rel="canonical" href="https://laserpro-x9.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "LaserPro X9",
+    "description": "Professional-grade laser pointer with 532nm green beam, visible up to 5 miles.",
+    "offers": {
+      "@type": "Offer",
+      "price": "49.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+  <style>
+    :root {
+      --red: #E8230A;
+      --red-dark: #B81A07;
+      --red-glow: rgba(232, 35, 10, 0.35);
+      --black: #0A0A0A;
+      --gray-900: #111111;
+      --gray-800: #1A1A1A;
+      --gray-600: #444444;
+      --gray-400: #888888;
+      --gray-200: #CCCCCC;
+      --white: #FFFFFF;
+      --beam: #00FF88;
+      --beam-glow: rgba(0, 255, 136, 0.4);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--black);
+      color: var(--white);
+      overflow-x: hidden;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 32px;
+      background: rgba(10,10,10,0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .logo {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+    .logo span { color: var(--red); }
+    .header-cta {
+      background: var(--red);
+      color: var(--white);
+      font-weight: 600;
+      font-size: 14px;
+      padding: 10px 22px;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background .2s, transform .15s;
+      letter-spacing: 0.03em;
+    }
+    .header-cta:hover { background: var(--red-dark); transform: translateY(-1px); }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 120px 24px 80px;
+      overflow: hidden;
+    }
+
+    /* Animated beam */
+    .beam-container {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+    .beam {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%) rotate(15deg);
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg, transparent 0%, var(--beam) 30%, rgba(0,255,136,0.1) 100%);
+      filter: blur(1px);
+      animation: beam-sweep 6s ease-in-out infinite;
+      transform-origin: top center;
+    }
+    .beam::after {
+      content: '';
+      position: absolute;
+      top: 0; left: -20px;
+      width: 42px;
+      height: 100%;
+      background: linear-gradient(180deg, transparent 0%, rgba(0,255,136,0.12) 30%, transparent 100%);
+      filter: blur(12px);
+    }
+    @keyframes beam-sweep {
+      0%, 100% { transform: translateX(-50%) rotate(-20deg); opacity: 0.7; }
+      50% { transform: translateX(-50%) rotate(25deg); opacity: 1; }
+    }
+
+    .beam-dot {
+      position: absolute;
+      width: 14px; height: 14px;
+      border-radius: 50%;
+      background: var(--beam);
+      box-shadow: 0 0 0 6px rgba(0,255,136,0.2), 0 0 30px 10px rgba(0,255,136,0.5);
+      animation: dot-move 6s ease-in-out infinite;
+      top: 45%; left: 55%;
+    }
+    @keyframes dot-move {
+      0%, 100% { transform: translate(-80px, -30px); }
+      50% { transform: translate(80px, 30px); }
+    }
+
+    /* Grid BG */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(232,35,10,0.08) 0%, transparent 70%);
+    }
+
+    .hero-badge {
+      position: relative;
+      z-index: 2;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(232,35,10,0.12);
+      border: 1px solid rgba(232,35,10,0.4);
+      color: #FF6B52;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 2px;
+      margin-bottom: 28px;
+      animation: fade-in 0.6s ease both;
+    }
+    .badge-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: #FF6B52;
+      animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    h1 {
+      position: relative;
+      z-index: 2;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(56px, 10vw, 120px);
+      line-height: 0.9;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      margin-bottom: 24px;
+      animation: fade-up 0.7s 0.1s ease both;
+    }
+    h1 em {
+      font-style: normal;
+      color: var(--red);
+      -webkit-text-stroke: 0;
+      text-shadow: 0 0 60px var(--red-glow);
+    }
+    h1 .outline {
+      -webkit-text-stroke: 2px rgba(255,255,255,0.25);
+      color: transparent;
+    }
+
+    .hero-sub {
+      position: relative;
+      z-index: 2;
+      max-width: 560px;
+      font-size: clamp(16px, 2.5vw, 20px);
+      color: var(--gray-200);
+      line-height: 1.6;
+      margin: 0 auto 40px;
+      animation: fade-up 0.7s 0.2s ease both;
+    }
+
+    .hero-cta-group {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      animation: fade-up 0.7s 0.3s ease both;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--red);
+      color: var(--white);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 18px 48px;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all .2s;
+      box-shadow: 0 4px 30px rgba(232,35,10,0.4);
+    }
+    .btn-primary:hover {
+      background: var(--red-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 40px rgba(232,35,10,0.55);
+    }
+    .btn-primary svg { flex-shrink: 0; }
+    .trust-line {
+      font-size: 13px;
+      color: var(--gray-400);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .trust-line span { display: flex; align-items: center; gap: 5px; }
+    .check { color: var(--beam); font-size: 15px; }
+
+    /* Scroll indicator */
+    .scroll-hint {
+      position: absolute;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: var(--gray-600);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      animation: fade-in 1s 1s both;
+    }
+    .scroll-arrow {
+      width: 20px; height: 28px;
+      border: 1.5px solid rgba(255,255,255,0.15);
+      border-radius: 10px;
+      position: relative;
+    }
+    .scroll-arrow::after {
+      content: '';
+      position: absolute;
+      top: 5px; left: 50%;
+      transform: translateX(-50%);
+      width: 4px; height: 8px;
+      background: var(--gray-400);
+      border-radius: 2px;
+      animation: scroll-bounce 1.5s ease infinite;
+    }
+    @keyframes scroll-bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); opacity: 1; }
+      100% { transform: translateX(-50%) translateY(10px); opacity: 0; }
+    }
+
+    /* ── SOCIAL PROOF BAR ── */
+    .proof-bar {
+      background: var(--gray-900);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding: 20px 24px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+    .proof-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--gray-400);
+    }
+    .proof-item strong { color: var(--white); font-weight: 600; }
+    .proof-icon { font-size: 18px; }
+
+    /* ── PRODUCT SECTION ── */
+    .product-section {
+      padding: 100px 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .section-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(36px, 5vw, 64px);
+      text-transform: uppercase;
+      line-height: 0.95;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      font-size: 17px;
+      color: var(--gray-400);
+      line-height: 1.6;
+      max-width: 480px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      margin-top: 60px;
+    }
+
+    .product-visual {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .product-glow {
+      position: absolute;
+      inset: -40px;
+      background: radial-gradient(circle, rgba(232,35,10,0.2) 0%, transparent 70%);
+      filter: blur(20px);
+    }
+    .product-img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 380px;
+      border-radius: 8px;
+      filter: drop-shadow(0 20px 60px rgba(0,0,0,0.8));
+    }
+    .product-beam-line {
+      position: absolute;
+      top: 50%; right: -60px;
+      width: 120px; height: 2px;
+      background: linear-gradient(90deg, var(--beam), transparent);
+      box-shadow: 0 0 10px var(--beam-glow);
+      z-index: 2;
+    }
+
+    .specs-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .spec-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .spec-label {
+      font-size: 14px;
+      color: var(--gray-400);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .spec-value {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--white);
+    }
+    .spec-value.green { color: var(--beam); }
+
+    /* ── FEATURES ── */
+    .features-section {
+      padding: 80px 24px 100px;
+      background: var(--gray-900);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .features-inner { max-width: 1100px; margin: 0 auto; }
+
+    .features-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+    .feature-card {
+      background: var(--black);
+      padding: 40px 36px;
+      border: 1px solid rgba(255,255,255,0.06);
+      transition: border-color .2s, transform .2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .feature-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--red);
+      transform: scaleX(0);
+      transition: transform .3s;
+      transform-origin: left;
+    }
+    .feature-card:hover::before { transform: scaleX(1); }
+    .feature-card:hover { border-color: rgba(232,35,10,0.2); }
+
+    .feature-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: 60px;
+      color: rgba(255,255,255,0.04);
+      line-height: 1;
+      margin-bottom: -10px;
+    }
+    .feature-icon {
+      font-size: 32px;
+      margin-bottom: 16px;
+      display: block;
+    }
+    .feature-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 10px;
+    }
+    .feature-desc {
+      font-size: 14px;
+      color: var(--gray-400);
+      line-height: 1.65;
+    }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-section {
+      padding: 100px 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .testimonials-header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .testimonial-card {
+      background: var(--gray-900);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 32px;
+      border-radius: 4px;
+      position: relative;
+    }
+    .stars { color: #FFB800; font-size: 14px; letter-spacing: 2px; margin-bottom: 16px; }
+    .testimonial-text {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--gray-200);
+      margin-bottom: 24px;
+    }
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .avatar {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: var(--gray-800);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    .author-name { font-weight: 600; font-size: 14px; }
+    .author-role { font-size: 12px; color: var(--gray-400); }
+
+    .verified-badge {
+      position: absolute;
+      top: 20px; right: 20px;
+      font-size: 11px;
+      color: var(--beam);
+      background: rgba(0,255,136,0.1);
+      border: 1px solid rgba(0,255,136,0.2);
+      padding: 3px 8px;
+      border-radius: 2px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ── PRICING ── */
+    .pricing-section {
+      padding: 100px 24px;
+      background: var(--gray-900);
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .pricing-inner { max-width: 900px; margin: 0 auto; }
+    .pricing-header { text-align: center; margin-bottom: 56px; }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .pricing-card {
+      background: var(--black);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 36px 28px;
+      border-radius: 4px;
+      position: relative;
+      transition: border-color .2s;
+    }
+    .pricing-card.featured {
+      border-color: var(--red);
+      box-shadow: 0 0 0 1px var(--red), 0 0 40px rgba(232,35,10,0.15);
+    }
+    .popular-tag {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--red);
+      color: white;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+    .plan-name {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gray-400);
+      margin-bottom: 8px;
+    }
+    .plan-price {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: 52px;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .plan-price span { font-size: 22px; font-weight: 600; vertical-align: top; margin-top: 10px; display: inline-block; }
+    .plan-desc { font-size: 13px; color: var(--gray-400); margin-bottom: 28px; }
+
+    .plan-features { list-style: none; margin-bottom: 32px; display: flex; flex-direction: column; gap: 10px; }
+    .plan-feature { font-size: 14px; color: var(--gray-200); display: flex; align-items: center; gap: 8px; }
+    .plan-feature .check { color: var(--beam); }
+
+    .btn-plan {
+      width: 100%;
+      padding: 14px;
+      border-radius: 4px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      transition: all .2s;
+    }
+    .btn-plan.primary {
+      background: var(--red);
+      color: white;
+    }
+    .btn-plan.primary:hover { background: var(--red-dark); }
+    .btn-plan.outline {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .btn-plan.outline:hover { border-color: rgba(255,255,255,0.5); }
+
+    .guarantee-box {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: rgba(0,255,136,0.06);
+      border: 1px solid rgba(0,255,136,0.2);
+      padding: 24px 32px;
+      border-radius: 4px;
+      text-align: left;
+    }
+    .guarantee-icon { font-size: 36px; flex-shrink: 0; }
+    .guarantee-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+    .guarantee-text { font-size: 14px; color: var(--gray-400); line-height: 1.5; }
+
+    /* ── FAQ ── */
+    .faq-section {
+      padding: 100px 24px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .faq-header { text-align: center; margin-bottom: 56px; }
+    .faq-list { display: flex; flex-direction: column; gap: 0; }
+    .faq-item {
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      overflow: hidden;
+    }
+    .faq-question {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 0;
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-align: left;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--white);
+      gap: 16px;
+    }
+    .faq-arrow {
+      flex-shrink: 0;
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: var(--gray-400);
+      transition: transform .3s, background .2s;
+    }
+    .faq-item.open .faq-arrow {
+      transform: rotate(45deg);
+      background: var(--red);
+      border-color: var(--red);
+      color: white;
+    }
+    .faq-answer {
+      font-size: 15px;
+      color: var(--gray-400);
+      line-height: 1.7;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .35s ease, padding .3s;
+    }
+    .faq-item.open .faq-answer {
+      max-height: 200px;
+      padding-bottom: 22px;
+    }
+
+    /* ── FINAL CTA ── */
+    .final-cta {
+      padding: 120px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      background: var(--gray-900);
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .final-cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 80% at 50% 50%, rgba(232,35,10,0.12) 0%, transparent 70%);
+    }
+    .cta-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(48px, 8vw, 96px);
+      text-transform: uppercase;
+      line-height: 0.95;
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 1;
+    }
+    .cta-sub {
+      font-size: 18px;
+      color: var(--gray-400);
+      margin-bottom: 48px;
+      position: relative;
+      z-index: 1;
+    }
+    .cta-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      position: relative;
+      z-index: 1;
+    }
+    .urgency-line {
+      font-size: 13px;
+      color: #FF6B52;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--black);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 40px 24px;
+      text-align: center;
+    }
+    .footer-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer-links a {
+      font-size: 13px;
+      color: var(--gray-600);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--gray-200); }
+    .footer-copy { font-size: 12px; color: var(--gray-600); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fade-up {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      header { padding: 12px 20px; }
+      .product-grid { grid-template-columns: 1fr; gap: 48px; }
+      .features-grid { grid-template-columns: 1fr; }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .pricing-grid { grid-template-columns: 1fr; }
+      .product-beam-line { display: none; }
+      .proof-bar { gap: 20px; }
+    }
+
+    /* Sticky CTA mobile */
+    .sticky-cta {
+      display: none;
+    }
+    @media (max-width: 640px) {
+      .sticky-cta {
+        display: block;
+        position: fixed;
+        bottom: 0; left: 0; right: 0;
+        z-index: 99;
+        padding: 12px 20px 20px;
+        background: linear-gradient(transparent, rgba(10,10,10,0.98));
+      }
+      .sticky-cta a {
+        display: block;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Laser<span>Pro</span></div>
+    <a href="#pricing" class="header-cta">Order Now →</a>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="beam-container">
+      <div class="beam"></div>
+      <div class="beam-dot"></div>
+    </div>
+
+    <div class="hero-badge">
+      <div class="badge-dot"></div>
+      ⚡ Limited Stock — Only 47 Units Left
+    </div>
+
+    <h1>
+      Command<br>
+      <em>Every</em><br>
+      <span class="outline">Room.</span>
+    </h1>
+
+    <p class="hero-sub">
+      The LaserPro X9 projects a razor-sharp 532nm beam visible up to <strong style="color:white">5 miles</strong>. Built for professionals who can't afford to be ignored.
+    </p>
+
+    <div class="hero-cta-group">
+      <a href="#pricing" class="btn-primary">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Get My LaserPro X9
+      </a>
+      <div class="trust-line">
+        <span><span class="check">✓</span> Free Shipping</span>
+        <span><span class="check">✓</span> 30-Day Guarantee</span>
+        <span><span class="check">✓</span> 50,000+ Sold</span>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-arrow"></div>
+      Scroll
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF BAR -->
+  <div class="proof-bar">
+    <div class="proof-item">
+      <span class="proof-icon">⭐</span>
+      <span><strong>4.9/5</strong> — 3,847 Reviews</span>
+    </div>
+    <div class="proof-item">
+      <span class="proof-icon">🚀</span>
+      <span>Trusted by <strong>Fortune 500</strong> presenters</span>
+    </div>
+    <div class="proof-item">
+      <span class="proof-icon">🌍</span>
+      <span>Ships to <strong>42 countries</strong></span>
+    </div>
+    <div class="proof-item">
+      <span class="proof-icon">🏆</span>
+      <span><strong>#1 Rated</strong> laser pointer 2024</span>
+    </div>
+  </div>
+
+  <!-- PRODUCT SECTION -->
+  <section class="product-section">
+    <div class="product-grid">
+      <div class="product-visual">
+        <div class="product-glow"></div>
+        <img
+          class="product-img"
+          src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=800&fit=crop&auto=format"
+          alt="LaserPro X9 professional laser pointer — precision engineered"
+          width="380" height="507"
+        />
+        <div class="product-beam-line"></div>
+      </div>
+
+      <div>
+        <div class="section-label">Precision Engineering</div>
+        <h2 class="section-title">Built Different.<br>Built <em style="font-style:normal;color:var(--red)">Better.</em></h2>
+        <p class="section-sub" style="margin-bottom:40px">
+          Every millimeter engineered for maximum output, ergonomic control, and zero hesitation. This isn't a gadget — it's a tool.
+        </p>
+        <ul class="specs-list">
+          <li class="spec-item">
+            <span class="spec-label">Wavelength</span>
+            <span class="spec-value green">532nm Green</span>
+          </li>
+          <li class="spec-item">
+            <span class="spec-label">Range</span>
+            <span class="spec-value">5 Miles / 8 km</span>
+          </li>
+          <li class="spec-item">
+            <span class="spec-label">Power Output</span>
+            <span class="spec-value">50mW</span>
+          </li>
+          <li class="spec-item">
+            <span class="spec-label">Battery Life</span>
+            <span class="spec-value">8+ Hours</span>
+          </li>
+          <li class="spec-item">
+            <span class="spec-label">Build</span>
+            <span class="spec-value">Aircraft Aluminium</span>
+          </li>
+          <li class="spec-item">
+            <span class="spec-label">Weight</span>
+            <span class="spec-value">68g</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features-section">
+    <div class="features-inner">
+      <div class="features-header">
+        <div class="section-label">Why X9 Wins</div>
+        <h2 class="section-title">No Compromises.</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-num">01</div>
+          <span class="feature-icon">🌡️</span>
+          <div class="feature-title">Thermally Stable</div>
+          <p class="feature-desc">Maintains output across -20°C to 60°C. Works in boardrooms and on mountaintops. Cold air or hot spotlights — X9 never flickers.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-num">02</div>
+          <span class="feature-icon">🔋</span>
+          <div class="feature-title">All-Day Power</div>
+          <p class="feature-desc">Two AAA batteries. Eight hours continuous runtime. USB-C rechargeable version also available. Never scramble for batteries mid-presentation again.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-num">03</div>
+          <span class="feature-icon">⚡</span>
+          <div class="feature-title">Instant-On</div>
+          <p class="feature-desc">Zero warm-up delay. Button-down-beam-on. The precise moment you click, the room follows your point. Momentum belongs to whoever controls attention.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-num">04</div>
+          <span class="feature-icon">🛡️</span>
+          <div class="feature-title">Drop-Tested</div>
+          <p class="feature-desc">Military-grade aluminium alloy shell. Survived 1.5m concrete drops in lab testing. Pocket-safe, bag-proof, built for the real world.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-num">05</div>
+          <span class="feature-icon">🎯</span>
+          <div class="feature-title">Pinpoint Accuracy</div>
+          <p class="feature-desc">Sub-0.5mm beam divergence at 10m. Whether you're pointing at a slide or a star, your audience sees exactly what you intend.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-num">06</div>
+          <span class="feature-icon">📦</span>
+          <div class="feature-title">Ready Out of Box</div>
+          <p class="feature-desc">Batteries included. Carry case included. No setup. No software. No excuses. Unbox, click, command.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="testimonials-header">
+      <div class="section-label">Real People, Real Results</div>
+      <h2 class="section-title">They Upgraded.<br>So Should You.</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="verified-badge">✓ Verified</div>
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"I present to 500-person rooms regularly. The X9 is the only pointer I've found where the beam is visible on any screen, any distance. It's become my most important tool."</p>
+        <div class="testimonial-author">
+          <div class="avatar">🎤</div>
+          <div>
+            <div class="author-name">Marcus T.</div>
+            <div class="author-role">Keynote Speaker, London</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="verified-badge">✓ Verified</div>
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Bought three for our department. Our professors have stopped borrowing each other's pointers — everyone got their own. Build quality is exceptional for the price."</p>
+        <div class="testimonial-author">
+          <div class="avatar">🔬</div>
+          <div>
+            <div class="author-name">Dr. Anika V.</div>
+            <div class="author-role">Physics Professor, Amsterdam</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="verified-badge">✓ Verified</div>
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Used it for a night astronomy event — the beam pointed directly at stars for the whole group to follow. Honestly incredible. Worth 5x what I paid."</p>
+        <div class="testimonial-author">
+          <div class="avatar">🌌</div>
+          <div>
+            <div class="author-name">Liam R.</div>
+            <div class="author-role">Amateur Astronomer, Dublin</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing-section" id="pricing">
+    <div class="pricing-inner">
+      <div class="pricing-header">
+        <div class="section-label">Choose Your Bundle</div>
+        <h2 class="section-title">Pick Your Power.</h2>
+        <p style="color:var(--gray-400);font-size:16px;margin-top:12px">Free express shipping on all orders. 30-day money-back guarantee.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="plan-name">Single</div>
+          <div class="plan-price"><span>$</span>49</div>
+          <div class="plan-desc">One X9 + carry case</div>
+          <ul class="plan-features">
+            <li class="plan-feature"><span class="check">✓</span> LaserPro X9 Unit</li>
+            <li class="plan-feature"><span class="check">✓</span> Premium Carry Case</li>
+            <li class="plan-feature"><span class="check">✓</span> 2× AAA Batteries</li>
+            <li class="plan-feature"><span class="check">✓</span> 1-Year Warranty</li>
+          </ul>
+          <button class="btn-plan outline" onclick="window.location='#'">Add to Cart</button>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="popular-tag">🔥 Most Popular</div>
+          <div class="plan-name">Value Pack</div>
+          <div class="plan-price"><span>$</span>89</div>
+          <div class="plan-desc">Two X9s — save $9</div>
+          <ul class="plan-features">
+            <li class="plan-feature"><span class="check">✓</span> 2× LaserPro X9 Units</li>
+            <li class="plan-feature"><span class="check">✓</span> 2× Premium Cases</li>
+            <li class="plan-feature"><span class="check">✓</span> 4× AAA Batteries</li>
+            <li class="plan-feature"><span class="check">✓</span> 2-Year Warranty</li>
+            <li class="plan-feature"><span class="check">✓</span> Priority Support</li>
+          </ul>
+          <button class="btn-plan primary" onclick="window.location='#'">Add to Cart — Best Value</button>
+        </div>
+
+        <div class="pricing-card">
+          <div class="plan-name">Team Pack</div>
+          <div class="plan-price"><span>$</span>199</div>
+          <div class="plan-desc">Five X9s — save $46</div>
+          <ul class="plan-features">
+            <li class="plan-feature"><span class="check">✓</span> 5× LaserPro X9 Units</li>
+            <li class="plan-feature"><span class="check">✓</span> Custom Engraving</li>
+            <li class="plan-feature"><span class="check">✓</span> Team Carry Case</li>
+            <li class="plan-feature"><span class="check">✓</span> Lifetime Warranty</li>
+            <li class="plan-feature"><span class="check">✓</span> Dedicated Support</li>
+          </ul>
+          <button class="btn-plan outline" onclick="window.location='#'">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="guarantee-box">
+        <div class="guarantee-icon">🛡️</div>
+        <div>
+          <div class="guarantee-title">30-Day Money-Back Guarantee</div>
+          <div class="guarantee-text">Not satisfied? Return it — no questions asked, full refund including shipping. We're that confident in the X9. Over 50,000 sold with a 98.7% satisfaction rate.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="faq-header">
+      <div class="section-label">Got Questions?</div>
+      <h2 class="section-title">We've Got Answers.</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Is the LaserPro X9 safe to use?
+          <div class="faq-arrow">+</div>
+        </button>
+        <div class="faq-answer">Yes. The X9 is Class IIIa/3R compliant, the same safety class used in professional presentation pointers worldwide. Never point at eyes or aircraft. Includes a built-in safety lock for storage.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How long does shipping take?
+          <div class="faq-arrow">+</div>
+        </button>
+        <div class="faq-answer">Standard: 3–5 business days (EU/UK/US). Express: 1–2 business days. All orders ship from our NL warehouse. Tracking included with every order.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          What batteries does it use?
+          <div class="faq-arrow">+</div>
+        </button>
+        <div class="faq-answer">Two standard AAA batteries — included with every unit. Runtime is approximately 8 hours continuous use. The USB-C rechargeable version is available in the Team Pack upgrade.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Can I use it for astronomy?
+          <div class="faq-arrow">+</div>
+        </button>
+        <div class="faq-answer">Absolutely — the green 532nm beam is the most visible wavelength to the human eye and is ideal for pointing at stars and constellations during night sky sessions. This is one of the most popular uses among our customers.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          What if I'm not happy with my order?
+          <div class="faq-arrow">+</div>
+        </button>
+        <div class="faq-answer">Full refund within 30 days — no questions, no hassle. Just email support and we'll arrange a return. We've processed thousands of these and it's a smooth process. Your satisfaction is guaranteed.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <h2 class="cta-title">Stop<br>Pointing<br><em style="color:var(--red)">Badly.</em></h2>
+    <p class="cta-sub">Join 50,000 professionals who upgraded to the X9.</p>
+    <div class="cta-actions">
+      <a href="#pricing" class="btn-primary" style="font-size:24px;padding:20px 56px">
+        Order Now — Free Shipping
+      </a>
+      <div class="urgency-line">⏰ Only 47 units left at this price</div>
+      <div class="trust-line">
+        <span><span class="check">✓</span> 30-Day Guarantee</span>
+        <span><span class="check">✓</span> Secure Checkout</span>
+        <span><span class="check">✓</span> Ships Today</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="logo">Laser<span>Pro</span></div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Shipping Policy</a>
+        <a href="#">Returns</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-copy">© 2026 LaserPro. All rights reserved. | Laser safety class IIIa/3R. Always use responsibly.</div>
+    </div>
+  </footer>
+
+  <!-- STICKY MOBILE CTA -->
+  <div class="sticky-cta">
+    <a href="#pricing" class="btn-primary" style="width:100%;justify-content:center">Order Now — Free Shipping →</a>
+  </div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Is the LaserPro X9 safe?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Class IIIa/3R compliant with built-in safety lock." } },
+      { "@type": "Question", "name": "How long does shipping take?", "acceptedAnswer": { "@type": "Answer", "text": "3–5 business days standard. 1–2 days express. Ships from NL." } },
+      { "@type": "Question", "name": "What batteries does it use?", "acceptedAnswer": { "@type": "Answer", "text": "Two AAA batteries included. 8 hours runtime." } }
+    ]
+  }
+  </script>
+
+  <script>
+    function toggleFaq(btn) {
+      const item = btn.parentElement;
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+
+    // Intersection-based fade-in for sections
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.feature-card, .testimonial-card, .pricing-card').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
